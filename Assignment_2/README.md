@@ -49,7 +49,5 @@ Technologies Used
 Java
 
 Object-Oriented Programming Concepts
-
 Constructors & Method Overloading
-
 Arrays of Objects
