@@ -1,14 +1,55 @@
 Assignment 02: Vehicle Class Implementation
-Description:
-This project demonstrates the core principles of Object-Oriented Programming (OOP) in Java, specifically focusing on Encapsulation, Constructor Overloading, and Array of Objects. The goal is to manage vehicle data securely using private members and public accessors.
 
-Key Features:
-Encapsulation: Implementation of private data members to protect object state, accessible only through public Getter and Setter methods.
-Constructor Overloading: * Default Constructor: Initializes objects with placeholder values.
-Parameterized Constructor: Allows custom initialization at the time of creation.
-Copy Constructor: Creates a new object as a carbon copy of an existing one.
-Behavioral Methods: Simulated vehicle logic including start(), stop(), drive(), calcMileage(), and changeSpeed().
-Object Arrays: Managing multiple Vehicle instances using a structured array for batch processing and display.
-File Structure:
-Vehicle.java: The blueprint class containing data members, constructors, and methods.
-VehicleMain.java: The driver class that instantiates objects, populates the array, and handles output.
+Description
+
+This project demonstrates core Object-Oriented Programming (OOP) principles in Java, focusing on:
+Encapsulation
+Constructor Overloading
+Array of Objects
+The objective is to manage vehicle data securely using private data members and controlled access through public methods.
+
+Key Features
+Encapsulation
+
+All data members are declared as private to protect the object’s internal state.
+Public Getter and Setter methods provide controlled access and modification of data.
+
+Constructor Overloading
+
+The Vehicle class includes multiple constructors to support different initialization scenarios:
+Default Constructor
+Initializes object attributes with placeholder or default values.
+Parameterized Constructor
+Allows object creation with custom values at the time of instantiation.
+Copy Constructor
+Creates a new Vehicle object as a replica of an existing object.
+
+Behavioral Methods
+
+The class includes methods that simulate real-world vehicle behavior:
+
+start() – Starts the vehicle
+
+stop() – Stops the vehicle
+
+drive() – Simulates driving action
+
+calcMileage() – Calculates mileage
+
+changeSpeed() – Modifies vehicle speed
+
+Object Arrays
+
+Uses an array of Vehicle objects to manage multiple vehicles.
+
+Enables structured storage, iteration, and batch display of vehicle details.
+
+Technologies Used
+
+Java
+
+Object-Oriented Programming Concepts
+
+Constructors & Method Overloading
+
+Arrays of Objects
